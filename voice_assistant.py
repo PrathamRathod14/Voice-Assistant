@@ -41,7 +41,7 @@ def take_command():
 
 def get_weather():
     """Fetch and report the weather for a specified city using OpenWeatherMap API."""
-    api_key = "0c175d1e548c80244d6d8f4f26b44e9d"  # Replace with your OpenWeatherMap API key
+    api_key = "{YOUR_API_KEY}"  # Replace with your OpenWeatherMap API key
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
 
     talk("Which city's weather would you like to check?")
